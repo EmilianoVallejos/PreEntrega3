@@ -26,6 +26,17 @@ display: flexbox;
 	width: auto;
 	display: block;
 }
+.accordion {
+	width: 60%;
+	margin: auto;
+}
+@media (max-width:800px) {
+	.accordion {
+		width: 80%;
+		margin: auto;
+	}
+}
+
 .boxModelingIndex {
 	margin: auto;
 	width: 50%;

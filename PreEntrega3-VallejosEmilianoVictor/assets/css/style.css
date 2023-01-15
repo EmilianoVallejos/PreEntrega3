@@ -113,11 +113,11 @@
 .AnimalungoStyle {
   white-space: nowrap;
   overflow: hidden;
-  width: 10em;
+  width: 400px;
   -webkit-animation: anim 4s infinite;
           animation: anim 4s infinite;
   font-size: 90px;
-  margin: 10px;
+  margin: 8px;
   font-family: NanumPenScript;
 }
 
@@ -178,8 +178,8 @@ img {
 }
 
 .container {
-  margin: 100px 100px 20px 200px;
-  position: relative;
+  margin: auto;
+  position: flex;
   width: 100%;
 }
 .container:hover .ImageOffer {
@@ -278,7 +278,8 @@ footer{
 }
 
 .box__footer a:hover{
-  opacity: 0.2;
+  opacity: 0.7;
+  color: #F6821F;
 }
 
 .box__copyright{
@@ -297,4 +298,30 @@ footer{
   border: none;
   height: 1px;
   background-color: #7a7a7a;
+}
+
+.footer_parrafo {
+  font-size: 30px;
+}
+.accordion {
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .accordion .boxModelingForm{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.boxModelingForm{
+  width: 60%;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .boxModelingForm{
+    width: 80%;
+    margin: auto;
+  }
 }
